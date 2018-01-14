@@ -1125,6 +1125,7 @@ Instead edit gulp/templates/sprite.css */
   text-align: center;
   font-weight: 200;
 
+
 }
 
 .site-footer__text {
@@ -1134,10 +1135,9 @@ Instead edit gulp/templates/sprite.css */
 
 @media (min-width: 800px){
 
-.site-footer {
-    display: inline;
-    margin-bottom: 0;
-    margin-right: 1.4rem
-
-}
+.site-footer__text {
+      display: inline;
+      margin-bottom: 0;
+      margin-right: 1.4rem
+  }
   }
