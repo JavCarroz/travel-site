@@ -1,9 +1,12 @@
-function Person(name, favColor) {
-  this.name = name;
-  this.favoriteColor = favColor;
-  this.greet = function() {
-    console.log('cool thing happens!');
+class  Person {
+  constructor (name, favColor) {
+    this.name = name;
+    this.favoriteColor = favColor;
+  }
+
+  greet () {
+    console.log('cooler stranger things are happening!');
   }
 }
 
-module.exports = Person;
+export default Person;
