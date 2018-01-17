@@ -17,7 +17,9 @@
 
     @mixin atLarge {
       &.lazyloaded {
-        background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+        background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
+        /*background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;*/
+        /*In the comment example the path is absolute against the root folder.*/
         background-size: cover;
       }
     }
